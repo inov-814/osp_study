@@ -6,6 +6,7 @@ while True:
     menu = int(input("Select menu: 1) average 2) fibonacci 3) exit ? "))
     if menu == 3:
         print("exit the program...")
+        print()
         exit(0)
     elif menu == 1:
         aver()

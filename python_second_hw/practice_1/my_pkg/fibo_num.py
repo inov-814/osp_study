@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 def fibo():
-    n = int(input("몇개의 피보나치 수를 생성? : "))
+    n = int(input("fibonacci number? "))
     frt = 1
     bck = 1
     fibo = []
