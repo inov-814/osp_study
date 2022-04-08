@@ -1,0 +1,87 @@
+<html>
+<head>
+    <title>여기는 제목 영역</title>
+    <style>
+        body {background-color: darkolivegreen; }
+        h3 { color: purple; }
+        hr {border: 5px solid yellowgreen;}
+        span { color: blueviolet; font-size : 20px; }
+    </style>
+</head>
+<body bgcolor="grey">
+    <!-- 이거 주석임 -->
+    안녕하세요, <br>
+    <hr>
+    오늘은<span> 대면 수업</span> 입니다.<br>
+    <p align="center">
+        <font face = "times" size = "4" color = "red" weight = "900" >문단입니다</font> 문단입니다
+        <ol>
+            <li><i>순서있는 정렬</i></li>
+            <ul>
+                <li><s>순서 없다</s>나무위키식 서술<small>아님말고</small></li>
+                <li>나도 없다<big>당당하게</big><boldface>강조</boldface><s>강조맞나?</s></li>
+            </ul>
+            <li>순서 있다<sub>서브스크립트</sub><div>블록이 스타일 따라간다</div></li>
+            <li>서순 있다<sup>슈퍼스크립트</sup><span>스타일따라간다</span></li>
+        </ol>
+    </p>
+    <p align="left">
+        <font color="blue" size = "7" weight = "900">파랑색</font><font color="green">좌정렬입니다.</font></br>
+        띄어쓰기
+    </p>
+    <p align="right">
+        우정렬입니다.<br>
+        <a href="https://www.naver.com">네이버 바로가기</a>
+        줄바꾸기</br>
+    </p>
+    <h1 align = "center">
+        제목 헤드라인
+        <font color = "pink"><strong>강조</strong></font>
+    </h1>
+    <h2>
+        <em>더 작은거</em>
+    </h2>
+    <h6>
+        제일 작은거
+    </h6>
+    <form method = "POST" action = "commetns.php">
+        <h2>Tell us what you think</h2>
+        Name <input name = "name" type = "text" size = "20" > <br>
+        Address <input name = "address" type = "text" size = "30" ><br>
+    
+
+    <font size = "5"><strong>How did you hear about this web site?</strong></font><br>
+    A friend<input type = "checkbox" name = "web" value = "friend"><br>
+    Search engine<input type = "checkbox" name = "web" value = "engine"><br>
+
+    <font size = "5">How did you hear about this web site?</font><br>
+    A friend<input type = "radio" name = "web" value = "friend"><br>
+    Search engine<input type = "radio" name = "web" value = "english"><br>
+    other one<input type = "radio" name = "not web" value = "english"><br>
+    
+    <font size = "5"><strong>Do you want to receive any further information:<br></strong></font>
+    <input type = "button" name = "yes" value = "Yes">
+    <input type = "button" name = "no" value = "No"><br>
+    <input type = "button" name = "no" value = "Pass"><!-- 이거가 내용 아니다--><br>
+    
+    <h2>Please write your comments :</h2>
+    <textarea name = "comments" rows = "5" cols = "20">
+       
+        
+        put text here
+    </textarea> <br>
+    <!-- 여기는 tab 적용됨, 엔터도 -->
+    
+    <font size = "5"><strong>How do you rate this site?<br></strong></font>
+    <select name = "rating">
+        <option>Good
+        <option selected>Bad
+        <option>Ugly
+    </select><br>
+
+    <font size = "5"><strong>Thank you</strong></font><br>
+    <input type = "submit" name = "send" value = "Send">
+    <input type = "reset" name = "clear" value = "Reset"><br>
+    </form>
+</body>
+</html>
